@@ -1,0 +1,86 @@
+# Байткод Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+ENV/
+
+# Файлы IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Файлы настроек
+*.ini
+*.cfg
+
+# Логи и базы данных
+*.log
+*.sqlite3
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Файлы зависимостей
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Файлы сборки
+build/
+dist/
+*.egg-info/
+
+# Файлы документации
+docs/_build/
+
+# Файлы покрытия тестов
+.coverage
+.tox/
+.pytest_cache/
+
+# Файлы Jupyter Notebook
+.ipynb_checkpoints
+
+# Файлы переводов
+*.mo
+*.pot
+
+# Файлы Django
+local_settings.py
+db.sqlite3
+media/
+
+# Файлы Flask
+instance/
+.webassets-cache
+
+# Файлы Scrapy
+.scrapy
+
+# Файлы Sphinx
+docs/_build/
+
+# Файлы PyBuilder
+target/
+
+# Файлы Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Файлы SageMath
+*.sage.py
+
+# Файлы dotenv
+.env
+
+# Файлы mypy
+.mypy_cache/
+
+# Файл API key
+api_token.txt

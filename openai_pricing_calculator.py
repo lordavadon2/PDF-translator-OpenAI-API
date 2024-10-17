@@ -10,7 +10,11 @@ def calculate_cost(model, input_token_count, output_token_count):
         'gpt-3.5-turbo': {'input': 0.0010, 'output': 0.0020},
         'gpt-3.5-turbo-16k': {'input': 0.0030, 'output': 0.0040},        
         'gpt-3.5-turbo-1106': {'input': 0.0010, 'output': 0.0020},
-        'gpt-3.5-turbo-instruct': {'input': 0.0015, 'output': 0.0020}
+        'gpt-3.5-turbo-instruct': {'input': 0.0015, 'output': 0.0020},
+        'gpt-4o': {'input': 0.0025, 'output': 0.01},
+        'gpt-4o-mini': {'input': 0.00015, 'output': 0.0006},
+        'gpt-o1-preview': {'input': 0.015, 'output': 0.06},
+        'gpt-o1-mini': {'input': 0.003, 'output': 0.012},
     }
 
     if model in pricing:
